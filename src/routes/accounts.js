@@ -1,6 +1,3 @@
-/**
- * accounts
- */
 
  const express = require('express');
 
