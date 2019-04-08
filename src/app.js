@@ -23,5 +23,6 @@ app.get('/profile',(req,res)=>{
     res.render('profile',{user: users[0]});
 });
 
-app.listen(3000,()=> console.log('Ps Project Running on Port 3000!'));
+const port = process.env.PORT || 3000;
+app.listen(port,()=> console.log(`Ps Project Running on Port ${port}!`));
 

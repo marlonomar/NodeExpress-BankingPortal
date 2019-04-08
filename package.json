@@ -4,7 +4,7 @@
   "description": "Build a Banking Portal with Node & Express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./src/app.js",
+    "start": "node ./src/app.js",
     "test:module1": "cross-env NODE_ENV=test mocha --exit './test/module1/*.spec.js' || true",
     "test:module2": "cross-env NODE_ENV=test mocha --exit './test/module2/*.spec.js' || true",
     "test:module3": "cross-env NODE_ENV=test mocha --exit './test/module3/*.spec.js' || true",
@@ -31,7 +31,6 @@
     "cheerio": "1.0.0-rc.2",
     "cross-env": "^5.2.0",
     "mocha": "5.1.1",
-    "nodemon": "1.17.4",
     "proxyquire": "2.0.1",
     "ramda": "0.25.0",
     "rewire": "4.0.1",
