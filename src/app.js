@@ -9,7 +9,7 @@ const express = require('express');
 
 const {users,accounts,writeJSON}= require('./data');
 const accountRoutes = require('./routes/accounts');
-const servicesRoutes = require('./routes/service');
+const servicesRoutes = require('./routes/services');
 
 const app = express();
 app.set('views',path.join(__dirname,'views'));

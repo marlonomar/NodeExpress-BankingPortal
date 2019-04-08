@@ -1,5 +1,5 @@
 /**
- * service
+ * services
  */
 
 const express = require('express');
